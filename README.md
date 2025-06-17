@@ -1,2 +1,2 @@
-# Trees_in_NYC
+# Branching Toward Sustainability: Tree Density and Envirnmental Impact in NYC
 project to explore correlations involving trees in NYC
