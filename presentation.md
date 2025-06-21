@@ -50,16 +50,12 @@ FEATURES-
 Main Features & Functionalities of the Project
 1. Data Integration
 Load and clean NYC Tree Census data.
-
 Load air quality and/or energy efficiency data.
-
 Merge datasets based on shared geography (e.g., ZIP code, borough, neighborhood, latitude/longitude).
 
 2. Data Exploration & Visualization
 Visualize tree distribution across the city (e.g., heatmaps, bar charts by borough).
-
 Explore trends in air quality and/or energy use by location.
-
 Compare environmental metrics across areas with different tree densities or conditions.
 
 3. Custom Functions
@@ -203,7 +199,7 @@ NYC Tree Census (CSV from NYC Open Data)
 Air Quality (CSV)
 Energy Efficiency Data (CSV)
 2. Data Storage & Preprocessing
-Data is stored in a local SQLite database?? or jupyter notebook?? and processed using Python (Pandas, NumPy)
+Cleaned Data will be stored in a local SQLite database and processed using Python (Pandas, NumPy)
 Cleaning, joining, and feature engineering performed in Jupyter Notebook
 3. Analysis & Visualization
 Python libraries (Matplotlib, Plotly) used for exploratory analysis
@@ -216,3 +212,39 @@ GitHub repository hosts code, documentation, and project deliverables
 5. Link to diagram from Canva or draw.io
 
 
+
+Risks
+1. Incomplete or Poor-Quality Data
+Mitigation:
+Conduct thorough data cleaning and preprocessing.
+Document all assumptions and limitations.
+
+2. Technical Difficulties- new to tech
+Mitigation:
+Allocate extra time for learning/practicing tools and libraries.
+
+3. Time Management- underestimating how long tasks will take.
+Mitigation:
+Break the project into smaller parts.
+Re-evaluate timeline weekly.
+
+4. Scope- adding extra goals
+Mitigation:
+Define a clear project scope and stick to it.
+Defer “nice to have” additions to a post-project phase.
+
+
+
+
+Project Evaluation Checklist
+1. Define Success
+Did the project answer the key research question?
+Did the project meet the deadline?
+
+2. Get Feedback
+Have atleast 2 peers or classmates review and run the project to verify clarity and reproducibility.
+
+3. Performance Metrics
+Was each project phase completed by its target date?
+Are my charts easy to interpret and relevant to the findings?
+Are my insights specific, relevant, and supported by the data?
