@@ -126,16 +126,13 @@ Combine tree data with population data to calculate how many trees exist per res
 
 
 
-TECHNOLOGIES-
+TECHNOLOGIES USED:
 
-Toolset Summary
 Languages & Core Libraries:
 
 Python – primary language for data analysis and project development
 
 Pandas – for data cleaning, transformation, and analysis
-
-NumPy – for numerical operations and array-based computation
 
 Visualization Tools:
 
@@ -153,13 +150,13 @@ Development Environment:
 
 Jupyter Notebook – for exploratory data analysis and documenting workflows
 
-VS Code – for script development, file management, and integration with Git
+VS Code – for script development and file management
 
 Version Control & Documentation:
 
-Git & GitHub – for version control, project sharing, and collaboration
+Git & GitHub – for version control and project sharing
 
-Markdown – for writing clean, readable documentation (e.g., README, reports, notebook notes)
+Markdown – for notes, documentation, and explanations
 
 
 TECHNOLOGIES Slide Format-
