@@ -41,29 +41,29 @@ _Markdown_ – for notes, documentation, and explanations
 
 ## Data Dictionary(from cleaned data)-
 
-**Variables from tree_summary_by_cb.csv:**\
-+ tree_id (object)- Unique identifier for each tree record.\
-+ cb_num (int)-  Community District where trees are located.\
-+ tree_count (int)-  Number of trees in the specified area.\
-+ avg_health_score (float)-  Average health score of trees (rating scale: 3= Good, 2= Fair, 1= Poor).\
-+ dbh_mean (float)-  Average 'diameter at breast height' (DBH) of trees, in inches.\
-+ dbh_max	(float)-  Maximum DBH observed in the area.\
+**Variables from tree_summary_by_cb.csv:**
++ tree_id (object)- Unique identifier for each tree record.
++ cb_num (int)-  Community District where trees are located.
++ tree_count (int)-  Number of trees in the specified area.
++ avg_health_score (float)-  Average health score of trees (rating scale: 3= Good, 2= Fair, 1= Poor).
++ dbh_mean (float)-  Average 'diameter at breast height' (DBH) of trees, in inches.
++ dbh_max	(float)-  Maximum DBH observed in the area.
 + unique_species (int)-  Count of unique tree species in the area.
 
-**Variables from Air_quality_by_CD.csv:**\
-+ id	(int)-  Unique identifier for the air quality record.\
-+ Geo_Join_ID	(float)-  Community District ID used to join spatial datasets(matches cb_num from tree data).\
-+ Time_Period	(object)-  Time period when the air quality measurement was taken (Summer, Winter, and Average).\
-+ Name (object)-  Name of the air quality indicator (Nitrogen dioxide (NO2), Fine particles (PM 2.5), Ozone (O3)).\
-+ Data_Value (float)-  Measured value of the air quality indicator.\
+**Variables from Air_quality_by_CD.csv:**
++ id	(int)-  Unique identifier for the air quality record.
++ Geo_Join_ID	(float)-  Community District ID used to join spatial datasets(matches cb_num from tree data).
++ Time_Period	(object)-  Time period when the air quality measurement was taken (Summer, Winter, and Average).
++ Name (object)-  Name of the air quality indicator (Nitrogen dioxide (NO2), Fine particles (PM 2.5), Ozone (O3)).
++ Data_Value (float)-  Measured value of the air quality indicator.
 + Measure_Info (object)-  Units or measurement description.
 
-**Variables from borough_tree.csv:**\
-+ boroname (object)-	Name of the borough.\
-+ unique_species (int)-  Total number of unique tree species within the borough.\
-+ avg_dbh (float)-  Average 'diameter at breast height' (DBH) of trees, in inches.\
-+ total_dbh (float)-  Sum of DBH measurements for all trees in the borough.\
-+ avg_health_score (float)-  Average health score of trees in the borough(rating scale: 3= Good, 2= Fair, 1= Poor).\
+**Variables from borough_tree.csv:**
++ boroname (object)-	Name of the borough.
++ unique_species (int)-  Total number of unique tree species within the borough.
++ avg_dbh (float)-  Average 'diameter at breast height' (DBH) of trees, in inches.
++ total_dbh (float)-  Sum of DBH measurements for all trees in the borough.
++ avg_health_score (float)-  Average health score of trees in the borough(rating scale: 3= Good, 2= Fair, 1= Poor).
 + total_trees	(int)-  Total number of trees in the borough.
 
 
@@ -88,11 +88,11 @@ Tree Count:\
 DBH(diameter at breast height):\
     mean: 10.87\
     max: 425.00\
-Air Quality(Nitrogen Dioxide):\
-    Summer mean\
-    Summer range\
-    Winter mean\
-    Winter range
+Air Quality(Nitrogen Dioxide(ppb)):\
+    Summer mean: 16.02\
+    Summer range: 6.6-29.7\
+    Winter mean: 23.96\
+    Winter range: 16.6-33.4
 
 
 
