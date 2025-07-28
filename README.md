@@ -5,8 +5,7 @@ This project explores the relationship between urban trees and environmental hea
 
 
 ## Project Setup Instructions-
-step by step directions how to download, install, and run project
-instruction for setting up the virtual environment\
+
 + Fork the repo
 + Create and Activate a Virtual Environment
 + Install the `requirements.txt` file
@@ -15,12 +14,12 @@ instruction for setting up the virtual environment\
 + Then with `second_notebook.ipynb` to see the SQL database, tables, and plots.
 
 ## Virtual Environment Commands 
-| **Command** |         **Linux/Mac**              |          **GitBash**                |
-| ----------  | ---------------------------------- |------------------------------------ |
-|  Create     |  `python3 -m venv venv`            |  `python -m venv venv`              |
-|  Activate   |  `source venv/bin/activate`        |  `source venv/Scripts/activate`     |
-|  Install    |  `pip install -r requirements.txt` |  `pip install -r requirements.txt`  |
-|  Deactivate |  `deactivate`                      |  `deactivate`                       |
+| **Command** |           **Linux/Mac**               |           **GitBash**                |
+| ----------  | ------------------------------------- | ------------------------------------ |
+|  Create     |    `python3 -m venv venv`             |   `python -m venv venv`              |
+|  Activate   |    `source venv/bin/activate`         |   `source venv/Scripts/activate`     |
+|  Install    |    `pip install -r requirements.txt`  |   `pip install -r requirements.txt`  |
+|  Deactivate |    `deactivate`                       |   `deactivate`                       |
 
 
 
@@ -29,8 +28,22 @@ instruction for setting up the virtual environment\
 
 
 ## Project Overview-
-Description of what the user should expect once the project is running
-clear and simple language
+
+This project explores the relationship between trees and air quality in New York City. Using data from the NYC Tree Census and NYC air quality data, it looks for signs that more trees might mean cleaner air.
+
+Once the project is running, it will:
+
++ Clean and prepare the data to make sure it's accurate and usable.
+
++ Group the tree data by community district so it can be compared directly with the air quality data(that is also grouped by community district).
+
++ Combine the tree and air datasets to look for connections between them.
+
++ Create simple visualizations to help show any patterns or relationships between tree coverage and air quality.
+
++ Help answer the question: Do areas with more or larger trees tend to have better air quality?
+
+
 
 
 ## TECHNOLOGIES USED:
@@ -104,7 +117,7 @@ Tree Count:\
     mean: 11,037\
     median: 8,474\
     max: 51,842\
-DBH(diameter at breast height):\
+DBH(diameter at breast height in inches):\
     mean: 10.87\
     max: 425.00\
 Air Quality(Nitrogen Dioxide(ppb)):\
@@ -120,6 +133,5 @@ Air Quality(Nitrogen Dioxide(ppb)):\
 
 ## Data Sources
 https://www.kaggle.com/datasets/kaggleprollc/air-quality-data-nyc\
-https://www.kaggle.com/datasets/alistairking/nyc-building-energy-efficiency-ratings\
 https://www.kaggle.com/datasets/nycparks/tree-census\
 
