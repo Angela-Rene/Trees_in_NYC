@@ -6,7 +6,26 @@ This project explores the relationship between urban trees and environmental hea
 
 ## Project Setup Instructions-
 step by step directions how to download, install, and run project
-instruction for setting up the virtual environment
+instruction for setting up the virtual environment\
++ Fork the repo
++ Create and Activate a Virtual Environment
++ Install the `requirements.txt` file
+
++ Start with `first_notebook.ipynb`  to see the cleaning and EDA of original data sources.
++ Then with `second_notebook.ipynb` to see the SQL database, tables, and plots.
+
+## Virtual Environment Commands 
+| **Command** |         **Linux/Mac**              |          **GitBash**                |
+| ----------  | ---------------------------------- |------------------------------------ |
+|  Create     |  `python3 -m venv venv`            |  `python -m venv venv`              |
+|  Activate   |  `source venv/bin/activate`        |  `source venv/Scripts/activate`     |
+|  Install    |  `pip install -r requirements.txt` |  `pip install -r requirements.txt`  |
+|  Deactivate |  `deactivate`                      |  `deactivate`                       |
+
+
+
+
+
 
 
 ## Project Overview-
