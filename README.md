@@ -4,7 +4,7 @@ This project explores the relationship between urban trees and environmental hea
 
 
 
-## Project Setup Instructions-
+## Project Setup Instructions:
 
 + Fork the repo
 + Create and Activate a Virtual Environment
@@ -27,7 +27,7 @@ This project explores the relationship between urban trees and environmental hea
 
 
 
-## Project Overview-
+## Project Overview:
 
 This project explores the relationship between trees and air quality in New York City. Using data from the NYC Tree Census and NYC air quality data, it looks for signs that more trees might mean cleaner air.
 
@@ -71,7 +71,7 @@ _Markdown_ – for notes, documentation, and explanations
 
 
 
-## Data Dictionary(from cleaned data)-
+## Data Dictionary(from cleaned data):
 
 **Variables from tree_summary_by_cb.csv:**
 + tree_id (object)- Unique identifier for each tree record.
@@ -102,7 +102,7 @@ _Markdown_ – for notes, documentation, and explanations
 
 
 
-## Data Summary  
+## Data Summary:  
 
 **Total Records:**\
 Tree dataset:   683,788 rows,  41 columns\
@@ -116,10 +116,12 @@ Air dataset: filtered to include only 2015(original range: 2009-2022)
 Tree Count:\
     mean: 11,037\
     median: 8,474\
-    max: 51,842\
+    max: 51,842
+
 DBH(diameter at breast height in inches):\
     mean: 10.87\
-    max: 425.00\
+    max: 425.00
+
 Air Quality(Nitrogen Dioxide(ppb)):\
     Summer mean: 16.02\
     Summer range: 6.6-29.7\
@@ -131,7 +133,7 @@ Air Quality(Nitrogen Dioxide(ppb)):\
 
 
 
-## Data Sources
+## Data Sources:
 https://www.kaggle.com/datasets/kaggleprollc/air-quality-data-nyc\
 https://www.kaggle.com/datasets/nycparks/tree-census\
 

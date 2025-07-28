@@ -245,3 +245,22 @@ Have atleast 2 peers or classmates review and run the project to verify clarity 
 Was each project phase completed by its target date?
 Are my charts easy to interpret and relevant to the findings?
 Are my insights specific, relevant, and supported by the data?
+
+
+
+
+It’s Capstone Time, Code:You Students!
+Just a friendly reminder that your capstone project is due by Noon on Friday, 8/8.
+As part of your capstone requirements, you’ll need to participate in a 15-minute interview focused on the following questions:
+----Capstone Project Overview
+ "Can you walk us through your capstone project? What problem were you aiming to solve, and how does your project address that problem?"
+----Code Functionality and Use
+ "How does the code you wrote support the functionality of your project? Can you point out a specific section of your code that you are particularly proud of or that was challenging to implement?"
+----Future Plans and Reflection
+ "Reflecting on your experience with Code:You, what’s one key skill or lesson you’ve learned that you’ll carry forward into future projects or your career?"
+These interviews will be conducted during the last two weeks of Module 4 during class times. Just so you know, you do not have to have a completed project to participate, so feel free to schedule in the times before the 8/8 deadline.
+ Please use the Calendly link below to schedule your interview.
+https://calendly.com/classroom-codeyou/da-capstone-interview-15min
+You’re welcome to select any available time that works for you — it doesn’t have to be during your usual class time.
+If you have any questions, don’t hesitate to reach out to @Tonia, @Dan Collins, @Blake Herbert or @Ailene Johnston.
+Good luck — you’ve got this! :muscle::skin-tone-5:
