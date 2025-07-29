@@ -264,3 +264,23 @@ https://calendly.com/classroom-codeyou/da-capstone-interview-15min
 You’re welcome to select any available time that works for you — it doesn’t have to be during your usual class time.
 If you have any questions, don’t hesitate to reach out to @Tonia, @Dan Collins, @Blake Herbert or @Ailene Johnston.
 Good luck — you’ve got this! :muscle::skin-tone-5:
+
+
+
+Virtual Environment Instructions
+After you have cloned the repo to your machine, navigate to the project folder in GitBash/Terminal.
+Create a virtual environment in the project folder.
+Activate the virtual environment.
+Install the required packages.
+When you are done working on your repo, deactivate the virtual environment.
+Virtual environment commands
+-
+-
+-
+-
+
+Note for VS Code Users:
+
+If you're using VS Code to run the Jupyter Notebook or Python script, ensure that the virtual environment(venv) is selected as the kernel. This is necessary for the modules installed from requirements.txt to be active when running the project.
+
+To select the kernel, open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on Mac) and search for "Python: Select Interpreter". Choose the one for the virtual environment (venv).
