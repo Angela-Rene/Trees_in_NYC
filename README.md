@@ -6,15 +6,18 @@ This project explores the relationship between urban trees and environmental hea
 
 ## Project Setup Instructions:
 
-+ Fork the repo
-+ Create and Activate a Virtual Environment
++ Copy the code link to this repository and clone to your computer.
++ Open the repository folder in a code editor, and create the virtual environment in that folder.
++ Create and Activate a Virtual Environment(commands in table below)
 + Install the `requirements.txt` file
 
-+ Start with `first_notebook.ipynb`  to see the cleaning and EDA of original data sources.
-+ Then with `second_notebook.ipynb` to see the SQL database, tables, and plots.
++ Start by opening `data_cleaning_and_eda.ipynb`  to see the cleaning and EDA of original data sources.
++ Then open `sql_database_and_plots.ipynb` to see the SQL database, tables, and plots.
++ Finally open `project_summary.ipynb` for a full project summary and a link to Tableau dashboard.
++ When you are finished, deactivate the virtual environment and close the repository folder.
 
 ## Virtual Environment Commands 
-| **Command** |           **Linux/Mac**               |           **GitBash**                |
+| **Command** |           **Linux/Mac**               |         **Windows/GitBash**          |
 | ----------  | ------------------------------------- | ------------------------------------ |
 |  Create     |    `python3 -m venv venv`             |   `python -m venv venv`              |
 |  Activate   |    `source venv/bin/activate`         |   `source venv/Scripts/activate`     |
@@ -45,28 +48,6 @@ Once the project is running, it will:
 
 
 
-
-## TECHNOLOGIES USED:
-
-**Languages & Core Libraries:**\
-_Python_ – primary language for data analysis and project development\
-_Pandas_ – for data cleaning, transformation, and analysis
-
-**Visualization Tools:**\
-_Matplotlib_ – for basic charts and static visualizations\
-_Plotly_ – for interactive graphs and visual exploration\
-_Tableau_ – for building interactive dashboards and communicating insights visually
-
-**Data Storage & Querying:**\
-_SQLite_ – for lightweight, file-based data storage and SQL querying
-
-**Development Environment:**\
-_Jupyter Notebook_ – for exploratory data analysis and documenting workflows\
-_VS Code_ – for script development and file management
-
-**Version Control & Documentation:**\
-_Git & GitHub_ – for version control and project sharing\
-_Markdown_ – for notes, documentation, and explanations
 
 
 
@@ -128,6 +109,29 @@ Air Quality(Nitrogen Dioxide(ppb)):\
     Winter mean: 23.96\
     Winter range: 16.6-33.4
 
+
+
+## TECHNOLOGIES USED:
+
+**Languages & Core Libraries:**\
+_Python_ – primary language for data analysis and project development\
+_Pandas_ – for data cleaning, transformation, and analysis
+
+**Visualization Tools:**\
+_Matplotlib_ – for basic charts and static visualizations\
+_Plotly_ – for interactive graphs and visual exploration\
+_Tableau_ – for building interactive dashboards and communicating insights visually
+
+**Data Storage & Querying:**\
+_SQLite_ – for lightweight, file-based data storage and SQL querying
+
+**Development Environment:**\
+_Jupyter Notebook_ – for exploratory data analysis and documenting workflows\
+_VS Code_ – for script development and file management
+
+**Version Control & Documentation:**\
+_Git & GitHub_ – for version control and project sharing\
+_Markdown_ – for notes, documentation, and explanations
 
 
 
