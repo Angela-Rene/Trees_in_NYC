@@ -1,6 +1,26 @@
-# Branching Toward Sustainability: How NYC's Urban Forest Supports a Healthier City
+# Branching Toward Sustainability: Does NYC's Urban Forest Support a Healthier City?
 ## Objective:
 This project explores the relationship between urban trees and environmental health in New York City. By combining data from the NYC Tree Census with NYC air quality data, the project investigates whether the presence, amount, and condition of trees contribute to a cleaner, more sustainable city. The analysis focuses on identifying patterns that might suggest how urban greenery supports public health and environmental resilience. Findings from this work could inform future decisions in urban planning, environmental policy, and climate adaptation strategies.
+
+
+
+## Project Overview:
+
+This project explores the relationship between trees and air quality in New York City. Using data from the NYC Tree Census and NYC air quality data, it looks for signs that more trees might mean cleaner air.
+
+Once the project is running, it will:
+
++ Clean and prepare the data to make sure it's accurate and usable.
+
++ Group the tree data by community district so it can be compared directly with the air quality data(that is also grouped by community district).
+
++ Combine the tree and air datasets to look for connections between them.
+
++ Create simple visualizations to help show any patterns or relationships between tree coverage and air quality.
+
++ Help answer the question: Do areas with more or larger trees tend to have better air quality?
+
+
 
 
 
@@ -24,27 +44,6 @@ This project explores the relationship between urban trees and environmental hea
 |  Install    |    `pip install -r requirements.txt`  |   `pip install -r requirements.txt`  |
 |  Deactivate |    `deactivate`                       |   `deactivate`                       |
 
-
-
-
-
-
-
-## Project Overview:
-
-This project explores the relationship between trees and air quality in New York City. Using data from the NYC Tree Census and NYC air quality data, it looks for signs that more trees might mean cleaner air.
-
-Once the project is running, it will:
-
-+ Clean and prepare the data to make sure it's accurate and usable.
-
-+ Group the tree data by community district so it can be compared directly with the air quality data(that is also grouped by community district).
-
-+ Combine the tree and air datasets to look for connections between them.
-
-+ Create simple visualizations to help show any patterns or relationships between tree coverage and air quality.
-
-+ Help answer the question: Do areas with more or larger trees tend to have better air quality?
 
 
 
