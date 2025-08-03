@@ -47,6 +47,33 @@ Once the project is running, it will:
 
 
 
+## Data Summary:  
+
+**Total Records:**\
+Tree dataset:   683,788 rows,  41 columns\
+Air dataset:    18,025 rows,  12 columns
+
+**Date Range:**\
+Tree dataset: 2015\
+Air dataset: filtered to include only 2015(original range: 2009-2022)
+
+**Basic Stats(using the 59 Community District Boundaries of NYC):**\
+Tree Count:\
+    mean: 11,037\
+    median: 8,474\
+    max: 51,842
+
+DBH(diameter at breast height in inches):\
+    mean: 10.87\
+    max: 425.00
+
+Air Quality(Nitrogen Dioxide(ppb)):\
+    Summer mean: 16.02\
+    Summer range: 6.6-29.7\
+    Winter mean: 23.96\
+    Winter range: 16.6-33.4
+
+
 
 
 
@@ -80,33 +107,6 @@ Once the project is running, it will:
 
 
 
-
-
-## Data Summary:  
-
-**Total Records:**\
-Tree dataset:   683,788 rows,  41 columns\
-Air dataset:    18,025 rows,  12 columns
-
-**Date Range:**\
-Tree dataset: 2015\
-Air dataset: filtered to include only 2015(original range: 2009-2022)
-
-**Basic Stats(using the 59 Community District Boundaries of NYC):**\
-Tree Count:\
-    mean: 11,037\
-    median: 8,474\
-    max: 51,842
-
-DBH(diameter at breast height in inches):\
-    mean: 10.87\
-    max: 425.00
-
-Air Quality(Nitrogen Dioxide(ppb)):\
-    Summer mean: 16.02\
-    Summer range: 6.6-29.7\
-    Winter mean: 23.96\
-    Winter range: 16.6-33.4
 
 
 
