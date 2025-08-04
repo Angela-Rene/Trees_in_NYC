@@ -79,6 +79,7 @@ Air Quality(Nitrogen Dioxide(ppb)):\
 
 
 
+
 ## Data Dictionary(from cleaned data):
 
 **Variables from tree_summary_by_cb.csv:**
@@ -138,6 +139,6 @@ _Markdown_ – for notes, documentation, and explanations
 
 
 ## Data Sources:
-https://www.kaggle.com/datasets/kaggleprollc/air-quality-data-nyc
+https://www.kaggle.com/datasets/kaggleprollc/air-quality-data-nyc\
 https://www.kaggle.com/datasets/nycparks/tree-census
 
