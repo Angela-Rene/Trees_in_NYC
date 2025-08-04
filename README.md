@@ -1,4 +1,5 @@
 # Branching Toward Sustainability: Does NYC's Urban Forest Support a Healthier City?
+---
 ## Objective:
 This project investigates whether the presence, amount, and condition of trees in NYC contribute to a cleaner, more sustainable city. By combining data from the NYC Tree Census with NYC air quality data, the project explores the relationship between urban trees and environmental health. The analysis focuses on identifying patterns that might suggest how urban greenery supports public health and environmental resilience. Findings from this work could inform future decisions in urban planning, environmental policy, and climate adaptation strategies.
 
