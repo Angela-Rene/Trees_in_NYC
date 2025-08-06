@@ -1,7 +1,7 @@
 # Branching Toward Sustainability: Does NYC's Urban Forest Support a Healthier City?
 ---
 ## Objective:
-This project investigates whether the presence, amount, and condition of trees in NYC contribute to a cleaner, more sustainable city. By combining data from the NYC Tree Census with NYC air quality data, the project explores the relationship between urban trees and environmental health. The analysis focuses on identifying patterns that might suggest how urban greenery supports public health and environmental resilience. Findings from this work could inform future decisions in urban planning, environmental policy, and climate adaptation strategies.
+This project investigates whether the presence, amount, and condition of trees in NYC contributes to a cleaner, more sustainable city. By combining data from the NYC Tree Census with NYC air quality data, the project explores the relationship between urban trees and environmental health. The analysis focuses on identifying patterns that might suggest how urban greenery supports public health and environmental resilience. Findings from this work could inform future decisions in urban planning, environmental policy, and climate adaptation strategies.
 
 ---
 
@@ -28,8 +28,8 @@ Once the project is running, it will:
 ## Project Setup Instructions:
 
 + Copy the code link to this repository and clone to your computer.
-+ Open the repository folder in a code editor, and create the virtual environment in that folder.
-+ Create and Activate a Virtual Environment(commands in table below)
++ Open the repository folder in a code editor; and create the virtual environment in that folder.
++ Create and Activate a Virtual Environment (commands in table below)
 + Install the `requirements.txt` file
 
 + Start by opening `data_cleaning_and_eda.ipynb`  to see the cleaning and EDA of original data sources.
@@ -58,7 +58,7 @@ Air dataset:    18,025 rows,  12 columns
 Tree dataset: 2015\
 Air dataset: filtered to include only 2015(original range: 2009-2022)
 
-**Basic Stats(using the 59 Community District Boundaries of NYC):**\
+**Basic Stats (using the 59 Community District Boundaries of NYC):**\
 Tree Count:\
     mean: 11,037\
     median: 8,474\
@@ -68,7 +68,7 @@ DBH(diameter at breast height in inches):\
     mean: 10.87\
     max: 425.00
 
-Air Quality(Nitrogen Dioxide(ppb)):\
+Air Quality (Nitrogen Dioxide(ppb)):\
     Summer mean: 16.02\
     Summer range: 6.6-29.7\
     Winter mean: 23.96\
@@ -80,7 +80,7 @@ Air Quality(Nitrogen Dioxide(ppb)):\
 
 
 
-## Data Dictionary(from cleaned data):
+## Data Dictionary (from cleaned data):
 
 **Variables from tree_summary_by_cb.csv:**
 + tree_id (object)- Unique identifier for each tree record.
